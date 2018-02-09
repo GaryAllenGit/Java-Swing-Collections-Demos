@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="StaffList">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="b87d4" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="7d5b7" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Staff List Editor"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="ac153" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="7d72">
+            <constraints/>
+            <properties>
+              <preferredSize width="250" height="120"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="7ce76" class="javax.swing.JList" binding="staffList">
+                <constraints/>
+                <properties>
+                  <model/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="b5884" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a2438" class="javax.swing.JButton" binding="addButton">
+            <constraints/>
+            <properties>
+              <preferredSize width="90" height="35"/>
+              <text value="Add"/>
+            </properties>
+          </component>
+          <component id="cd1ca" class="javax.swing.JTextField" binding="staffName">
+            <constraints/>
+            <properties>
+              <columns value="0"/>
+              <preferredSize width="200" height="35"/>
+            </properties>
+          </component>
+          <component id="4b73a" class="javax.swing.JButton" binding="deleteButton">
+            <constraints/>
+            <properties>
+              <preferredSize width="90" height="35"/>
+              <text value="Remove"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
